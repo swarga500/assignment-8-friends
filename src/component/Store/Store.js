@@ -24,7 +24,7 @@ const Store = () => {
                 <div className="row w-75 mx-auto row-cols-1 row-cols-md-3 g-4">
                 {
                 products.map(product => <Product
-                key={product.model}
+                key={product.title}
                 product={product}
                 cartButton={cartButton}
                 
