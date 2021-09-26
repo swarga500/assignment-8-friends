@@ -13,9 +13,9 @@ const Cart = (props) => {
         <div className="card shadow h-auto ms-5 p-5 bg-light">
             <h4 className="card-title">
                 <span className="text-success fs-3">Item click:</span> {props.cart.length}
-                </h4>
+            </h4>
             
-            <h4><span className="text-success fs-3">total:</span> {total}</h4>
+            <h4><span className="text-success fs-3">Total:</span> {total}Tk</h4>
             <p className="fs-5 fw-bold">
                {productName}
             </p>
